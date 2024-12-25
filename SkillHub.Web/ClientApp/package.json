@@ -1,13 +1,16 @@
 {
-  "name": "skill-hub",
+  "name": "skill-hub.web",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "prestart": "node aspnetcore-https",
+    "start": "run-script-os",
+    "start:windows": "ng serve --port 44479 --ssl --ssl-cert \"%APPDATA%\\ASP.NET\\https\\%npm_package_name%.pem\" --ssl-key \"%APPDATA%\\ASP.NET\\https\\%npm_package_name%.key\"",
+    "start:default": "ng serve --port 44479 --ssl --ssl-cert \"$HOME/.aspnet/https/${npm_package_name}.pem\" --ssl-key \"$HOME/.aspnet/https/${npm_package_name}.key\"",
     "build": "ng build",
+    "build:ssr": "ng run SkillHub.Web:server:dev",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:SkillHub": "node dist/skill-hub/server/server.mjs"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +25,7 @@
     "@angular/router": "^19.0.0",
     "@angular/ssr": "^19.0.6",
     "express": "^4.18.2",
+    "run-script-os": "^1.1.6",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"

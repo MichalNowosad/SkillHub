@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B435C22-55CB-4F42-967C-3B363C59E4E7}"
 	ProjectSection(SolutionItems) = preProject
@@ -30,6 +30,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillHub.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillHub.API", "SkillHub.API\SkillHub.API.csproj", "{5412F431-7869-485D-974F-CF3CE4921E1F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{277D7BBA-A5E5-4A1D-ADD8-8F94C2F43B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillHub.Web", "SkillHub.Web\SkillHub.Web.csproj", "{7F1A0A44-5DA1-41F8-8E32-AFD531D105D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,10 @@ Global
 		{5412F431-7869-485D-974F-CF3CE4921E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5412F431-7869-485D-974F-CF3CE4921E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5412F431-7869-485D-974F-CF3CE4921E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F1A0A44-5DA1-41F8-8E32-AFD531D105D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1A0A44-5DA1-41F8-8E32-AFD531D105D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1A0A44-5DA1-41F8-8E32-AFD531D105D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1A0A44-5DA1-41F8-8E32-AFD531D105D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,5 +80,7 @@ Global
 		{E5F26A87-8DEC-4C1C-AD7E-93EB0448F72E} = {F219650B-5E53-4ACD-82A8-A68F8E5A7FA9}
 		{809C4268-53B8-4F6C-A832-19526BC9B370} = {F219650B-5E53-4ACD-82A8-A68F8E5A7FA9}
 		{5412F431-7869-485D-974F-CF3CE4921E1F} = {AD3A176A-5B23-42D0-A099-2474E516EC07}
+		{277D7BBA-A5E5-4A1D-ADD8-8F94C2F43B9A} = {DA1848C2-F44B-48FB-99A0-ABAE8B567759}
+		{7F1A0A44-5DA1-41F8-8E32-AFD531D105D1} = {277D7BBA-A5E5-4A1D-ADD8-8F94C2F43B9A}
 	EndGlobalSection
 EndGlobal
