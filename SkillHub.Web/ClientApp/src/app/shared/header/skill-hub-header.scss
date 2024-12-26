@@ -1,0 +1,19 @@
+.skill-hub-header {
+  font-weight: bold;
+  
+  &.skill-hub-header--small {
+    font-size: 14px;
+  }
+
+  &.skill-hub-header--medium {
+    font-size: 18px;
+  }
+
+  &.skill-hub-header--large {
+    font-size: 24px;
+  }
+
+  &.skill-hub-header--xlarge {
+    font-size: 48px;
+  }
+}

@@ -1,0 +1,28 @@
+.skill-hub-button {
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+
+  &.skill-hub-button--primary {
+    background-color: var(--skillhub-primary);
+    color: white;
+
+    &:hover {
+      background-color: var(--skillhub-primary-hover);
+    }
+  }
+
+  &.skill-hub-button--secondary {
+    background-color: var(--skillhub-secondary);
+    color: white;
+  }
+
+  &.skill-hub-button--tertiary {
+    color: white;
+  }
+
+  &.skill-hub-button--large {
+    height: 48px;
+    font-size: 16px;
+  }
+}

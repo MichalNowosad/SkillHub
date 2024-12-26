@@ -1,0 +1,20 @@
+.skill-hub-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  .skill-hub-form-element {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+    .skill-hub-form-label {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  .skill-hub-button {
+    margin-top: 16px;
+  }
+}

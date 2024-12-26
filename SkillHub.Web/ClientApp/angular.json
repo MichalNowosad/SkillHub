@@ -32,7 +32,12 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/theme.scss",
+              "src/styles.scss",
+              "src/app/shared/header/headers.scss",
+              "src/app/shared/input/inputs.scss",
+              "src/app/shared/form/forms.scss",
+              "src/app/shared/button/skill-hub-button.scss"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -97,7 +102,9 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/theme.scss",
+              "src/styles.scss",
+              "src/app/shared/header/headers.scss"
             ],
             "scripts": []
           }

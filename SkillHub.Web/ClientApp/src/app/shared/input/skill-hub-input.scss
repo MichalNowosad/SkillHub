@@ -1,0 +1,13 @@
+.skill-hub-input {
+  background-color: var(--skillhub-background);
+  color: white;
+  height: 36px;
+  border: none;
+  font-size: 14px;
+  border-radius: 12px;
+  padding: 4px 8px;
+  
+  &::placeholder {
+    color: var(--skillhub-placeholder-text);
+  }
+}
