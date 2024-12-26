@@ -32,7 +32,12 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/theme.scss",
+              "src/styles.scss",
+              "src/app/shared/header/skill-hub-header.scss",
+              "src/app/shared/input/skill-hub-input.scss",
+              "src/app/shared/form/skill-hub-form.scss",
+              "src/app/shared/button/skill-hub-button.scss"
             ],
             "scripts": []
           },
@@ -92,7 +97,12 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/theme.scss",
+              "src/styles.scss",
+              "src/app/shared/header/skill-hub-header.scss",
+              "src/app/shared/input/skill-hub-input.scss",
+              "src/app/shared/form/skill-hub-form.scss",
+              "src/app/shared/button/skill-hub-button.scss"
             ],
             "scripts": []
           }
