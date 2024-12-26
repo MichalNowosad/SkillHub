@@ -1,0 +1,33 @@
+<div class="login-container">
+  <div class="login-tile">
+    <img class="login-logo" src="skillhub_logo.svg" />
+    <div class="login-header">
+      <div header size="xlarge">Log In</div>
+      <div class="login-header-subtitle">Start tracking your skills now</div>
+    </div>
+    <form class="skillhub-form" [formGroup]="loginForm">
+      <div class="skillhub-form-element">
+        <div class="skillhub-form-label">Email</div>
+        <input 
+          formControlName="Email"
+          class="skillhub-form-control skillhub-input"
+          type="email"
+          placeholder="Enter your email address" />
+      </div>
+      <div class="skillhub-form-element">
+        <div class="skillhub-form-label">Password</div>
+        <input
+          formControlName="Password"
+          class="skillhub-form-control skillhub-input"
+          type="password" 
+          placeholder="Enter your password" />
+      </div>
+      <button skillHubButton
+        size="large"
+        type="primary"
+        (click)="onSignIn()">
+        Sign In
+      </button>
+    </form>
+  </div>
+</div>
